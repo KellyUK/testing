@@ -2,10 +2,8 @@ import React from 'react';
 import Enzyme from 'enzyme';
 import { mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Root from '../../root';
-import CommentList from '../CommentList';
 
-import App from '../App';
+import Root from '../../root';
 import CommentBox from '../CommentBox';
 
 Enzyme.configure({ adapter: new Adapter() });
