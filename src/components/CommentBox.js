@@ -7,7 +7,6 @@ export default class CommentBox extends Component {
   };
 
   handleSubmit = event => {
-    console.log(event);
     event.preventDefault();
     // todo save in redux
     this.setState({ comment: '' });
