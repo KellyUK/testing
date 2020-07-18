@@ -3,9 +3,8 @@ import { connect } from 'react-redux';
 
 class CommentList extends Component {
   renderComments() {
-    return this.props.comments.map(comment => {
-      return <li key={comment}>{comment}</li>;
-    });
+    console.log(this.props.comments);
+    return this.props.comments.map(comment => <li key={comment}>{comment}</li>);
   }
   render() {
     return (
